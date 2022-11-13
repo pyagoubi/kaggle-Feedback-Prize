@@ -12,7 +12,7 @@ The goal of this competition is to assess the language proficiency of 8th-12th g
 * DeBERTa model: **[Link](https://github.com/pyagoubi/kaggle-Feedback-Prize/blob/main/dbb-4xmp3.ipynb)** 
 
 Following points to note about the DeBERTa model
-+instead of CLS-pooling MeanPooling was applied as it has shown to work better on that dataset
-+the last three layers were meanpooled and then fed into a linear NN were weights were scaled by softmax
-+layerwise learning rate decay was applied
++ instead of CLS-pooling MeanPooling was applied as it has shown to work better on that dataset
++ the last three layers were meanpooled and then fed into a linear NN were weights were scaled by softmax
++ layerwise learning rate decay was applied
 
