@@ -16,3 +16,8 @@ Following points to note about the DeBERTa model
 + the last three layers were meanpooled and then fed into a linear NN were weights were scaled by softmax
 + layerwise learning rate decay was applied
 
+Other Models/ approaches used but not found beneficial
++ BERTlarge
++ Using Pseudolabelling on previous Feedback competitions
++ Training for each target seperately
+
